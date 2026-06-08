@@ -1,0 +1,36 @@
+@font-face {
+    font-family: onepiece;
+    src: url(./one\ piece\ font.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    background-image: url(./one\ pice.jpg);
+    background-size: contain;
+    background-position: 0%,10%;
+}
+h1{
+    font-size: 100px;
+    font-family: onepiece;
+    text-align: center;
+    color: #b42625;
+    font-weight: 800;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #691616;
+}
